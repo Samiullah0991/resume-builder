@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+</head>
+<body>
+  <header>
+    <h1>Interactive Resume Builder</h1>
+  </header>
+  <main>
+    <section id="form-section">
+      <h2>Enter Your Details</h2>
+      <form id="resume-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob">
+        </div>
+        <div>
+          <label for="nationality">Nationality:</label>
+          <input type="text" id="nationality" name="nationality">
+        </div>
+        <div>
+          <label for="contact">Contact Information:</label>
+          <textarea id="contact" name="contact"></textarea>
+        </div>
+        <div>
+          <label for="work-experience">Work Experience:</label>
+          <textarea id="work-experience" name="work-experience"></textarea>
+        </div>
+        <div>
+          <label for="education">Education:</label>
+          <textarea id="education" name="education"></textarea>
+        </div>
+        <div>
+          <label for="skills">Digital Skills:</label>
+          <textarea id="skills" name="skills"></textarea>
+        </div>
+        <div>
+          <label for="languages">Language Skills:</label>
+          <textarea id="languages" name="languages"></textarea>
+        </div>
+      </form>
+    </section>
+    <section id="preview-section">
+      <h2>Resume Preview</h2>
+      <div id="resume-preview">
+        <!-- Resume preview will be dynamically generated here -->
+      </div>
+    </section>
+    <section id="template-section">
+        <h2>Choose a Template</h2>
+        <div id="template-options">
+          <button class="template-btn" data-template="template1">Template 1</button>
+          <button class="template-btn" data-template="template2">Template 2</button>
+        </div>
+      </section>
+      
+  </main>
+  <footer>
+    <button id="export-button">Export Resume</button>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

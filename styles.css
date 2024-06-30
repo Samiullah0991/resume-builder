@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main Content Styling */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+  }
+  
+  section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  /* Form Section Styling */
+  #form-section form div {
+    margin-bottom: 15px;
+  }
+  
+  #form-section form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #form-section form input,
+  #form-section form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #form-section h2,
+  #preview-section h2,
+  #template-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #4CAF50;
+  }
+  
+  /* Resume Preview Styling */
+  #resume-preview {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  #resume-preview h1,
+  #resume-preview h2 {
+    margin-bottom: 10px;
+  }
+  
+  #resume-preview h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  #resume-preview h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  #resume-preview p {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  /* Template Section Styling */
+  #template-section {
+    text-align: center;
+  }
+  
+  #template-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .template-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .template-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 20px;
+  }
+  
+  button#export-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button#export-button:hover {
+    background-color: #45a049;
+  }
+  

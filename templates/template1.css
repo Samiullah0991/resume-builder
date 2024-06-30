@@ -1,0 +1,16 @@
+/* Template 1 Styles */
+.template1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .template1 h1 {
+    color: #4CAF50;
+  }
+  .template1 h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+  }
+  .template1 p {
+    margin: 0.5em 0;
+  }
+  

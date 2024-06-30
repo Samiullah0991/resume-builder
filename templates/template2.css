@@ -1,0 +1,16 @@
+/* Template 2 Styles */
+.template2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #222;
+  }
+  .template2 h1 {
+    color: #1E90FF;
+  }
+  .template2 h2 {
+    color: #222;
+    border-bottom: 2px solid #1E90FF;
+  }
+  .template2 p {
+    margin: 0.75em 0;
+  }
+  
